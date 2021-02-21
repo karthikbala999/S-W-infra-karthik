@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.healthmonitor.HealthMonitorActivity"
+    tools:showIn="@layout/app_bar_main2"
+    android:background="#757575">
+
+    <Button
+        android:id="@+id/ble_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_bluetooth"
+        android:text="Enable"
+        android:layout_above="@+id/step_btn"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+    <include layout="@layout/steps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/step_btn" />
+
+    <Button
+        android:id="@+id/step_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/act_btn"
+
+
+        android:text="Heart Rate" />
+
+
+
+    <Button
+        android:id="@+id/dis_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/cal_btn"
+        android:text="Blood Pressure" />
+
+    <Button
+        android:id="@+id/cal_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="SugarLevel" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_alignRight="@+id/ble_enable"
+        android:text="scandevices" />
+
+    <Button
+        android:id="@+id/hover_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Me"
+        android:layout_marginTop="650dp"
+        android:layout_alignRight="@+id/btn_scan"
+        android:layout_alignParentEnd="true"/>
+
+
+
+
+</RelativeLayout>
