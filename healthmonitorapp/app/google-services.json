@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "136853272936",
+    "firebase_url": "https://vishnu-6c873-default-rtdb.firebaseio.com",
+    "project_id": "vishnu-6c873",
+    "storage_bucket": "vishnu-6c873.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136853272936:android:4653494fe7dcd2fae93edd",
+        "android_client_info": {
+          "package_name": "com.example.healthmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136853272936-6uk5pdgplcniotrqf9b90feobc3hr169.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS27dIGXFRtGN32A7RCYRRGQw5JzSXEUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136853272936-6uk5pdgplcniotrqf9b90feobc3hr169.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
